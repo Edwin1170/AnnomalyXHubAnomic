@@ -167,7 +167,7 @@ local ThemeEnabled = true
 local ThemeMode = "White" -- Red,Green,White
 local folderImpacts = game:GetService("Workspace").RayIgnore.BulletHoles
 
-local DevList = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/Anomic/Support%20Code/bannedusers.lua"))()
+local DevList = loadstring(game:HttpGet("https://raw.githubusercontent.com/Edwin1170/AnnomalyXDevList/main/AnnomalyX"))()
 
 print("Loading | TeamMod")
 for i,v in pairs(teamList) do    
