@@ -163,7 +163,7 @@ local alwaysHeadShot = false
 
 _G.flySpeed = 1
 local lJumpHeight = 30
-local ThemeEnabled = true
+local ThemeEnabled = disabled
 local ThemeMode = "White" -- Red,Green,White
 local folderImpacts = game:GetService("Workspace").RayIgnore.BulletHoles
 
